@@ -24,16 +24,16 @@ install:
 #  - sudo pip install cpp-coveralls;
 
 before_script:
-  - ! 'echo ''project yaul-tml : \
-                requirements \
-                <include>include \
-                <toolset>gcc:<cxxflags>-std=c++11 \
-                <toolset>gcc:<cxxflags>-Wextra \
-                <toolset>gcc:<cxxflags>-pedantic \
-                <toolset>clang:<cxxflags>-std=c++11 \
-                <toolset>clang:<cxxflags>-Wextra \
-                <toolset>clang:<cxxflags>-pedantic \
-                : \
+  - ! 'echo ''project yaul-tml :
+                requirements
+                <include>include
+                <toolset>gcc:<cxxflags>-std=c++11
+                <toolset>gcc:<cxxflags>-Wextra
+                <toolset>gcc:<cxxflags>-pedantic
+                <toolset>clang:<cxxflags>-std=c++11
+                <toolset>clang:<cxxflags>-Wextra
+                <toolset>clang:<cxxflags>-pedantic
+                : 
                 build-dir bin.v2 ;'' > Jamroot'
   - $CXX --version;
   - $CXX -dumpversion;

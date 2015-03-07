@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['numeric_20metafunction',['Numeric Metafunction',['../NumericMetafunConcept.html',1,'']]]
+  ['metafunction_20class',['Metafunction Class',['../MetafunClassConcept.html',1,'Concepts']]],
+  ['metafunction',['Metafunction',['../MetafunConcept.html',1,'Concepts']]]
 ];

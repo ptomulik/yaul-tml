@@ -49,6 +49,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
@@ -98,7 +99,7 @@ $(document).ready(function(){initNavTree('structyaul_1_1tml_1_1variadic_1_1empty
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Modules</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -109,7 +110,7 @@ $(document).ready(function(){initNavTree('structyaul_1_1tml_1_1variadic_1_1empty
 
 <div class="header">
   <div class="headertitle">
-<div class="title">yaul::tml::variadic::empty Struct Reference</div>  </div>
+<div class="title">yaul::tml::variadic::empty Struct Reference<div class="ingroups"><a class="el" href="group__SeqGroup.html">Sequences</a> &raquo; <a class="el" href="group__SeqIntrGroup.html">Intrinsic Metafunctions</a> &raquo; <a class="el" href="group__SeqIntrVariadicGroup.html">Variadic Metafunction Classes</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -144,7 +145,7 @@ $(document).ready(function(){initNavTree('structyaul_1_1tml_1_1variadic_1_1empty
 <p>For any types <code>args...</code> </p><div class="fragment"><div class="line"><span class="keyword">typedef</span> variadic::empty::apply&lt;args...&gt;::type c;</div>
 </div><!-- fragment --><ul>
 <li><b>Return type</b>: Boolean <a class="el" href="IntConstConcept.html">Integral Constant</a></li>
-<li><b>Semantics</b>: Equivalent to <div class="fragment"><div class="line"><span class="keyword">typedef</span> bool_&lt;(<span class="keyword">sizeof</span>...(args) == 0ul)&gt;::type c;</div>
+<li><b>Semantics</b>: Equivalent to <div class="fragment"><div class="line"><span class="keyword">typedef</span> <a class="code" href="group__TypesNumericGroup.html#ga7c1eefe483ca4f89a2598dfea5abd6ba">bool_</a>&lt;(<span class="keyword">sizeof</span>...(args) == 0ul)&gt;::type c;</div>
 </div><!-- fragment --> <b>Postcondition</b>: <div class="fragment"><div class="line">variadic::empty::apply&lt;args...&gt;::value == ( <span class="keyword">sizeof</span>...(args) == 0ul )</div>
 </div><!-- fragment --></li>
 </ul>
@@ -162,8 +163,8 @@ $(document).ready(function(){initNavTree('structyaul_1_1tml_1_1variadic_1_1empty
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespaceyaul.html">yaul</a></li><li class="navelem"><b>tml</b></li><li class="navelem"><b>variadic</b></li><li class="navelem"><a class="el" href="structyaul_1_1tml_1_1variadic_1_1empty.html">empty</a></li>
-    <li class="footer">Generated on Sat Mar 7 2015 13:48:53 for TML by
+    <li class="navelem"><a class="el" href="namespaceyaul.html">yaul</a></li><li class="navelem"><a class="el" href="namespaceyaul_1_1tml.html">tml</a></li><li class="navelem"><a class="el" href="namespaceyaul_1_1tml_1_1variadic.html">variadic</a></li><li class="navelem"><a class="el" href="structyaul_1_1tml_1_1variadic_1_1empty.html">empty</a></li>
+    <li class="footer">Generated on Sat Mar 7 2015 22:00:10 for TML by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

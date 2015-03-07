@@ -49,6 +49,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
@@ -97,7 +98,7 @@ $(document).ready(function(){initNavTree('integral__c_2aux___2not_8hpp_source.ht
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Modules</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -132,7 +133,7 @@ $(document).ready(function(){initNavTree('integral__c_2aux___2not_8hpp_source.ht
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;  {</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keyword">template</span>&lt;<span class="keyword">class</span> F&gt;</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;      <span class="keyword">struct </span>apply</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        : bool_&lt;(!F::type::value)&gt;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        : <a class="code" href="group__TypesNumericGroup.html#ga7c1eefe483ca4f89a2598dfea5abd6ba">bool_</a>&lt;(!F::type::value)&gt;</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;      { };</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;  };</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;} } <span class="comment">// end namespace yaul::tml</span></div>
@@ -140,7 +141,8 @@ $(document).ready(function(){initNavTree('integral__c_2aux___2not_8hpp_source.ht
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* YAUL_TML_INTEGRAL_C_AUX_NOT_HPP */</span><span class="preprocessor"></span></div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="comment">// vim: set expandtab tabstop=2 shiftwidth=2:</span></div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="comment">// vim: set foldmethod=marker foldcolumn=4:</span></div>
-<div class="ttc" id="namespaceyaul_html"><div class="ttname"><a href="namespaceyaul.html">yaul</a></div><div class="ttdoc">Main namespace for the entire library. </div><div class="ttdef"><b>Definition:</b> namespaces.hpp:10</div></div>
+<div class="ttc" id="group__TypesNumericGroup_html_ga7c1eefe483ca4f89a2598dfea5abd6ba"><div class="ttname"><a href="group__TypesNumericGroup.html#ga7c1eefe483ca4f89a2598dfea5abd6ba">yaul::tml::bool_</a></div><div class="ttdeci">integral_c&lt; bool, C &gt; bool_</div><div class="ttdoc">A boolean Integral Constant wrapper. </div><div class="ttdef"><b>Definition:</b> bool.hpp:65</div></div>
+<div class="ttc" id="namespaceyaul_html"><div class="ttname"><a href="namespaceyaul.html">yaul</a></div><div class="ttdoc">Main namespace for the parent yaul library. </div><div class="ttdef"><b>Definition:</b> groups.hpp:7</div></div>
 <div class="ttc" id="bool_8hpp_html"><div class="ttname"><a href="bool_8hpp.html">bool.hpp</a></div><div class="ttdoc">Provides yaul::tml::bool_. </div></div>
 <div class="ttc" id="integral__c__tag_8hpp_html"><div class="ttname"><a href="integral__c__tag_8hpp.html">integral_c_tag.hpp</a></div><div class="ttdoc">Defines yaul::tml::integral_c_tag. </div></div>
 <div class="ttc" id="not__fwd_8hpp_html"><div class="ttname"><a href="not__fwd_8hpp.html">not_fwd.hpp</a></div><div class="ttdoc">Forward declarations for yaul/tml/not.hpp. </div></div>
@@ -151,7 +153,7 @@ $(document).ready(function(){initNavTree('integral__c_2aux___2not_8hpp_source.ht
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_b0a4ba8c08b4702ae404c283be6b22fe.html">yaul</a></li><li class="navelem"><a class="el" href="dir_346daf964bd84660eb1e7d6f1abe2cfc.html">tml</a></li><li class="navelem"><a class="el" href="dir_10d955c744e782737ce18d69b8d8255b.html">integral_c</a></li><li class="navelem"><a class="el" href="dir_d99ba1558d1bad46b1df0b1abd1e906b.html">aux_</a></li><li class="navelem"><a class="el" href="integral__c_2aux___2not_8hpp.html">not.hpp</a></li>
-    <li class="footer">Generated on Sat Mar 7 2015 13:48:44 for TML by
+    <li class="footer">Generated on Sat Mar 7 2015 22:00:00 for TML by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

@@ -49,6 +49,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
@@ -97,7 +98,7 @@ $(document).ready(function(){initNavTree('variadic_2equal_8hpp_source.html','');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Modules</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -151,7 +152,7 @@ $(document).ready(function(){initNavTree('variadic_2equal_8hpp_source.html','');
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    {</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;      <span class="keyword">template</span> &lt;<span class="keyword">class</span>... Args2&gt;</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        <span class="keyword">struct </span>apply</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;          : if_c&lt;(sizeof...(Args2) == 0), true_, false_&gt;::type</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;          : <a class="code" href="group__MetafunTypeSelGroup.html#gaab49fe7bcd0c1c5ffbf4e24d348881e4">if_c</a>&lt;(sizeof...(Args2) == 0), true_, false_&gt;::type</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        { };</div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    };</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;} } } <span class="comment">// end namespace yaul::tml::variadic</span></div>
@@ -160,11 +161,12 @@ $(document).ready(function(){initNavTree('variadic_2equal_8hpp_source.html','');
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;<span class="comment">// vim: set expandtab tabstop=2 shiftwidth=2:</span></div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;<span class="comment">// vim: set foldmethod=marker foldcolumn=4:</span></div>
 <div class="ttc" id="structyaul_1_1tml_1_1variadic_1_1equal_html"><div class="ttname"><a href="structyaul_1_1tml_1_1variadic_1_1equal.html">yaul::tml::variadic::equal</a></div><div class="ttdoc">Tests if two sequences are equal. </div><div class="ttdef"><b>Definition:</b> equal.hpp:75</div></div>
+<div class="ttc" id="group__MetafunTypeSelGroup_html_gaab49fe7bcd0c1c5ffbf4e24d348881e4"><div class="ttname"><a href="group__MetafunTypeSelGroup.html#gaab49fe7bcd0c1c5ffbf4e24d348881e4">yaul::tml::if_c</a></div><div class="ttdeci">if_&lt; bool_&lt; c &gt;, T1, T2 &gt; if_c</div><div class="ttdoc">Returns one of its two arguments depending on a condition. </div><div class="ttdef"><b>Definition:</b> if.hpp:126</div></div>
 <div class="ttc" id="structyaul_1_1tml_1_1integral__c_html"><div class="ttname"><a href="structyaul_1_1tml_1_1integral__c.html">yaul::tml::integral_c</a></div><div class="ttdoc">A general Integral Constant wrapper. </div><div class="ttdef"><b>Definition:</b> integral_c.hpp:68</div></div>
 <div class="ttc" id="structyaul_1_1tml_1_1apply_html"><div class="ttname"><a href="structyaul_1_1tml_1_1apply.html">yaul::tml::apply</a></div><div class="ttdoc">Invokes a Metafunction Class or a Lambda Expression. </div><div class="ttdef"><b>Definition:</b> apply.hpp:60</div></div>
 <div class="ttc" id="if_8hpp_html"><div class="ttname"><a href="if_8hpp.html">if.hpp</a></div><div class="ttdoc">Provider yaul::tml::if_. </div></div>
 <div class="ttc" id="apply_8hpp_html"><div class="ttname"><a href="apply_8hpp.html">apply.hpp</a></div><div class="ttdoc">Provides yaul::tml::apply. </div></div>
-<div class="ttc" id="namespaceyaul_html"><div class="ttname"><a href="namespaceyaul.html">yaul</a></div><div class="ttdoc">Main namespace for the entire library. </div><div class="ttdef"><b>Definition:</b> namespaces.hpp:10</div></div>
+<div class="ttc" id="namespaceyaul_html"><div class="ttname"><a href="namespaceyaul.html">yaul</a></div><div class="ttdoc">Main namespace for the parent yaul library. </div><div class="ttdef"><b>Definition:</b> groups.hpp:7</div></div>
 <div class="ttc" id="structyaul_1_1tml_1_1if___html"><div class="ttname"><a href="structyaul_1_1tml_1_1if__.html">yaul::tml::if_</a></div><div class="ttdoc">Returns one of its two arguments depending on a condition. </div><div class="ttdef"><b>Definition:</b> if.hpp:61</div></div>
 <div class="ttc" id="variadic_2equal__fwd_8hpp_html"><div class="ttname"><a href="variadic_2equal__fwd_8hpp.html">equal_fwd.hpp</a></div><div class="ttdoc">Forward declarations for yaul/tml/variadic/equal.hpp. </div></div>
 <div class="ttc" id="bool_8hpp_html"><div class="ttname"><a href="bool_8hpp.html">bool.hpp</a></div><div class="ttdoc">Provides yaul::tml::bool_. </div></div>
@@ -175,7 +177,7 @@ $(document).ready(function(){initNavTree('variadic_2equal_8hpp_source.html','');
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_b0a4ba8c08b4702ae404c283be6b22fe.html">yaul</a></li><li class="navelem"><a class="el" href="dir_346daf964bd84660eb1e7d6f1abe2cfc.html">tml</a></li><li class="navelem"><a class="el" href="dir_3a7a2dd7b4087ab743635fac97aa5291.html">variadic</a></li><li class="navelem"><a class="el" href="variadic_2equal_8hpp.html">equal.hpp</a></li>
-    <li class="footer">Generated on Sat Mar 7 2015 13:48:46 for TML by
+    <li class="footer">Generated on Sat Mar 7 2015 22:00:02 for TML by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

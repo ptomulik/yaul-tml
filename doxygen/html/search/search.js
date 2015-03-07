@@ -11,8 +11,9 @@ var indexSectionsWithContent =
   1: "abcdefgijlmnopqrstuw",
   2: "y",
   3: "abcdefgijlmnopqrstuv",
-  4: "t",
-  5: "befilmnprstv"
+  4: "bcils",
+  5: "abcdilmnqrstv",
+  6: "bcefilmnprstv"
 };
 
 var indexSectionNames =
@@ -21,8 +22,9 @@ var indexSectionNames =
   1: "classes",
   2: "namespaces",
   3: "files",
-  4: "defines",
-  5: "pages"
+  4: "typedefs",
+  5: "groups",
+  6: "pages"
 };
 
 function convertToId(search)

@@ -49,6 +49,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
@@ -97,7 +98,7 @@ $(document).ready(function(){initNavTree('long_8hpp_source.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Modules</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -127,15 +128,16 @@ $(document).ready(function(){initNavTree('long_8hpp_source.html','');});
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceyaul.html">yaul</a> { <span class="keyword">namespace </span>tml {</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="keyword">template</span> &lt;<span class="keywordtype">long</span> l&gt;</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;  <span class="keyword">using</span> long_ = integral_c&lt;long, l&gt;;</div>
+<div class="line"><a name="l00065"></a><span class="lineno"><a class="line" href="group__TypesNumericGroup.html#ga5138797e69e16b7c6202056977ebcf07">   65</a></span>&#160;  <span class="keyword">using</span> <a class="code" href="structyaul_1_1tml_1_1integral__c.html">long_</a> = <a class="code" href="structyaul_1_1tml_1_1integral__c.html">integral_c&lt;long, l&gt;</a>;</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;} } <span class="comment">// end namespace yaul::tml</span></div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* YAUL_TML_LONG_HPP */</span><span class="preprocessor"></span></div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="comment">// vim: set expandtab tabstop=2 shiftwidth=2:</span></div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="comment">// vim: set foldmethod=marker foldcolumn=4:</span></div>
+<div class="ttc" id="structyaul_1_1tml_1_1integral__c_html"><div class="ttname"><a href="structyaul_1_1tml_1_1integral__c.html">yaul::tml::integral_c</a></div><div class="ttdoc">A general Integral Constant wrapper. </div><div class="ttdef"><b>Definition:</b> integral_c.hpp:68</div></div>
 <div class="ttc" id="integral__c_8hpp_html"><div class="ttname"><a href="integral__c_8hpp.html">integral_c.hpp</a></div><div class="ttdoc">Provies yaul::tml::integral_c. </div></div>
 <div class="ttc" id="long__fwd_8hpp_html"><div class="ttname"><a href="long__fwd_8hpp.html">long_fwd.hpp</a></div><div class="ttdoc">Forward declarations for yaul/tml/long.hpp. </div></div>
-<div class="ttc" id="namespaceyaul_html"><div class="ttname"><a href="namespaceyaul.html">yaul</a></div><div class="ttdoc">Main namespace for the entire library. </div><div class="ttdef"><b>Definition:</b> namespaces.hpp:10</div></div>
+<div class="ttc" id="namespaceyaul_html"><div class="ttname"><a href="namespaceyaul.html">yaul</a></div><div class="ttdoc">Main namespace for the parent yaul library. </div><div class="ttdef"><b>Definition:</b> groups.hpp:7</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.7-->
@@ -143,7 +145,7 @@ $(document).ready(function(){initNavTree('long_8hpp_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_b0a4ba8c08b4702ae404c283be6b22fe.html">yaul</a></li><li class="navelem"><a class="el" href="dir_346daf964bd84660eb1e7d6f1abe2cfc.html">tml</a></li><li class="navelem"><a class="el" href="long_8hpp.html">long.hpp</a></li>
-    <li class="footer">Generated on Sat Mar 7 2015 13:48:47 for TML by
+    <li class="footer">Generated on Sat Mar 7 2015 22:00:04 for TML by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

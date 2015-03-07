@@ -1,30 +1,15 @@
 var NAVTREE =
 [
   [ "TML", "index.html", [
-    [ "Back Extensible Sequence", "BackExtensibleSeqConcept.html", null ],
-    [ "Bidirectional Iterator", "BidirIterConcept.html", null ],
-    [ "Bidirectional Sequence", "BidirSeqConcept.html", null ],
-    [ "Extensible Sequence", "ExtensibleSeqConcept.html", null ],
-    [ "Forward Iterator", "ForwardIterConcept.html", null ],
-    [ "Forward Sequence", "ForwardSeqConcept.html", null ],
-    [ "Front Extensible Sequence", "FrontExtensibleSeqConcept.html", null ],
-    [ "Integral Constant", "IntConstConcept.html", null ],
-    [ "Lambda Expression", "LambdaExprConcept.html", null ],
-    [ "Metafunction", "MetafunConcept.html", null ],
-    [ "Metafunction Class", "MetafunClassConcept.html", null ],
-    [ "Numeric Metafunction", "NumericMetafunConcept.html", null ],
-    [ "Placeholder Expression", "PlaceholderExprConcept.html", null ],
-    [ "Random Access Iterator", "RandomIterConcept.html", null ],
-    [ "Random Access Sequence", "RandomSeqConcept.html", null ],
-    [ "Sequence", "SequenceConcept.html", null ],
-    [ "Sequence Generator", "SeqGeneratorConcept.html", null ],
-    [ "Tag Dispatched Metafunction", "TagDispatchedMetafunConcept.html", null ],
-    [ "Template Sequence", "TemplateSeqConcept.html", null ],
-    [ "Variadic Sequence", "VariadicSeqConcept.html", null ],
-    [ "Variadic Template Sequence", "VariadicTemplateSeqConcept.html", null ],
+    [ "Concepts", "Concepts.html", "Concepts" ],
     [ "Todo List", "todo.html", null ],
+    [ "Modules", "modules.html", "modules" ],
     [ "Namespaces", null, [
-      [ "Namespace List", "namespaces.html", "namespaces" ]
+      [ "Namespace List", "namespaces.html", "namespaces" ],
+      [ "Namespace Members", "namespacemembers.html", [
+        [ "All", "namespacemembers.html", null ],
+        [ "Typedefs", "namespacemembers_type.html", null ]
+      ] ]
     ] ],
     [ "Classes", null, [
       [ "Class List", "annotated.html", "annotated" ],
@@ -45,9 +30,9 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 ".html",
-"erase_8hpp_source.html",
-"remove_8hpp_source.html",
-"variadic_2c__str_8hpp.html"
+"erase__back_8hpp_source.html",
+"plus_8hpp_source.html",
+"template__sequence_2aux___2pop__back_8cpp.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

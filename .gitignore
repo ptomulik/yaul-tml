@@ -1,0 +1,5 @@
+##############################################################################
+# Ignore all except the defined documentation
+*
+!.gitignore
+!/doxygen/

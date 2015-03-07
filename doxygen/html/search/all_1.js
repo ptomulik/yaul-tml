@@ -10,7 +10,7 @@ var searchData=
   ['back_2ehpp',['back.hpp',['../variadic_2back_8hpp.html',1,'']]],
   ['back_5ffwd_2ehpp',['back_fwd.hpp',['../back__fwd_8hpp.html',1,'']]],
   ['back_5ffwd_2ehpp',['back_fwd.hpp',['../variadic_2back__fwd_8hpp.html',1,'']]],
-  ['back_20extensible_20sequence',['Back Extensible Sequence',['../BackExtensibleSeqConcept.html',1,'']]],
+  ['back_20extensible_20sequence',['Back Extensible Sequence',['../BackExtensibleSeqConcept.html',1,'Concepts']]],
   ['basic_5fstring',['basic_string',['../structbasic__string.html',1,'']]],
   ['begin',['begin',['../structyaul_1_1tml_1_1begin.html',1,'yaul::tml']]],
   ['begin_2ecpp',['begin.cpp',['../begin_8cpp.html',1,'']]],
@@ -18,8 +18,8 @@ var searchData=
   ['begin_2ehpp',['begin.hpp',['../begin_8hpp.html',1,'']]],
   ['begin_2ehpp',['begin.hpp',['../template__sequence_2aux___2begin_8hpp.html',1,'']]],
   ['begin_5ffwd_2ehpp',['begin_fwd.hpp',['../begin__fwd_8hpp.html',1,'']]],
-  ['bidirectional_20iterator',['Bidirectional Iterator',['../BidirIterConcept.html',1,'']]],
-  ['bidirectional_20sequence',['Bidirectional Sequence',['../BidirSeqConcept.html',1,'']]],
+  ['bidirectional_20iterator',['Bidirectional Iterator',['../BidirIterConcept.html',1,'Concepts']]],
+  ['bidirectional_20sequence',['Bidirectional Sequence',['../BidirSeqConcept.html',1,'Concepts']]],
   ['bind',['bind',['../structyaul_1_1tml_1_1bind.html',1,'yaul::tml']]],
   ['bind_2ecpp',['bind.cpp',['../bind_8cpp.html',1,'']]],
   ['bind_2ehpp',['bind.hpp',['../bind_8hpp.html',1,'']]],
@@ -30,8 +30,8 @@ var searchData=
   ['bitand_5f',['bitand_',['../structyaul_1_1tml_1_1bitand__.html',1,'yaul::tml']]],
   ['bitand_5ffwd_2ehpp',['bitand_fwd.hpp',['../bitand__fwd_8hpp.html',1,'']]],
   ['bitor_2ecpp',['bitor.cpp',['../bitor_8cpp.html',1,'']]],
-  ['bitor_2ehpp',['bitor.hpp',['../aux___2bitor_8hpp.html',1,'']]],
   ['bitor_2ehpp',['bitor.hpp',['../bitor_8hpp.html',1,'']]],
+  ['bitor_2ehpp',['bitor.hpp',['../aux___2bitor_8hpp.html',1,'']]],
   ['bitor_5f',['bitor_',['../structyaul_1_1tml_1_1bitor__.html',1,'yaul::tml']]],
   ['bitor_5ffwd_2ehpp',['bitor_fwd.hpp',['../bitor__fwd_8hpp.html',1,'']]],
   ['bitxor_2ecpp',['bitxor.cpp',['../bitxor_8cpp.html',1,'']]],
@@ -41,5 +41,7 @@ var searchData=
   ['bitxor_5ffwd_2ehpp',['bitxor_fwd.hpp',['../bitxor__fwd_8hpp.html',1,'']]],
   ['bool_2ecpp',['bool.cpp',['../bool_8cpp.html',1,'']]],
   ['bool_2ehpp',['bool.hpp',['../bool_8hpp.html',1,'']]],
-  ['bool_5ffwd_2ehpp',['bool_fwd.hpp',['../bool__fwd_8hpp.html',1,'']]]
+  ['bool_5f',['bool_',['../group__TypesNumericGroup.html#ga7c1eefe483ca4f89a2598dfea5abd6ba',1,'yaul::tml']]],
+  ['bool_5ffwd_2ehpp',['bool_fwd.hpp',['../bool__fwd_8hpp.html',1,'']]],
+  ['bitwise_20operations',['Bitwise Operations',['../group__MetafunBitOpsGroup.html',1,'']]]
 ];

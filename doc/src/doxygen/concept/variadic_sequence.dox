@@ -1,41 +1,39 @@
-Front Extensible Sequence {#FrontExtensibleSeqConcept}
-=========================
+/**
+\page VariadicSeqConcept Variadic Sequence
 
-Description
------------
+\par Description
 
-Refinement of
--------------
 
-Expression requirements
------------------------
+\par Refinement of
+
+
+\par Expression requirements
+
 
 |            Expression                   |                 Type                 |            Complexity            |
 | --------------------------------------- | ------------------------------------ | -------------------------------- |
-| `xxx<T>::type`                          |  `Y`                                 |  Unspecified                     |
+| `xxx<S>::type`                          |  Unknown                             |  Unspecified                     |
 
 
-Expression semantics
---------------------
+\par Expression semantics
 
 |            Expression                   |                                  Semantics                              |
 | --------------------------------------- | ----------------------------------------------------------------------- |
-| `xxx<T>::type`                          |  Blah blah blah                                                         |
+| `xxx<S>::type`                          |  Bla bla bla bla                                                        |
 
 
-Invariants
-----------
+\par Invariants
 
 For any Xxx `X` the following invariants always hold:
 
 - invariant 1
 - invariant 2
 
-Models
-------
+\par Models
 
 - model1
 - model2
 
-See also
---------
+
+\par See also
+*/

@@ -1,45 +1,35 @@
-Variadic Sequence {#VariadicSeqConcept}
-=================
+/**
+\page BidirIterConcept Bidirectional Iterator
 
-Description
------------
+\par Description
 
+\par Refinement of
 
-Refinement of
--------------
-
-
-Expression requirements
------------------------
-
+\par Expression requirements
 
 |            Expression                   |                 Type                 |            Complexity            |
 | --------------------------------------- | ------------------------------------ | -------------------------------- |
-| `xxx< S > :: type`                      |  Unknown                             |  Unspecified                     |
+| <tt>xxx<T>::type</tt>                   |  `Y`                                 |  Unspecified                     |
 
 
-Expression semantics
---------------------
+\par Expression semantics
 
 |            Expression                   |                                  Semantics                              |
 | --------------------------------------- | ----------------------------------------------------------------------- |
-| `xxx< S > :: type`                      |  Bla bla bla bla                                                        |
+| <tt>xxx<T>::type</tt>                   |  Blah blah blah                                                         |
 
 
-Invariants
-----------
+\par Invariants
 
 For any Xxx `X` the following invariants always hold:
 
 - invariant 1
 - invariant 2
 
-Models
-------
+\par Models
 
 - model1
 - model2
 
-
-See also
---------
+\par See also
+*/

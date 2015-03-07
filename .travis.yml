@@ -43,6 +43,8 @@ before_script:
                 build-dir bin.v2 ;'' > Jamroot'
   - $CXX --version;
   - $CXX -dumpversion;
+  - which $CXX
+  - which $CC
 
 script:
   - bjam toolset=$CC -d+2 -a test example

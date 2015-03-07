@@ -9,7 +9,7 @@
 
 namespace yaul { namespace tml { namespace aux {
 struct template_sequence_tag {};
-} } } // end namespace yaul::yaul::tml::aux
+} } } // end namespace yaul::tml::aux
 
 // vim: set expandtab tabstop=2 shiftwidth=2:
 // vim: set foldmethod=marker foldcolumn=4:

@@ -76,7 +76,7 @@ template <class F>
     struct pop_front<F>::apply
       : yaul::tml::apply<F,Tail...>
     { };
-} } } // end namespace yaul::yaul::tml::variadic
+} } } // end namespace yaul::tml::variadic
 
 #endif /* YAUL_TML_VARIADIC_POP_FRONT_HPP */
 // vim: set expandtab tabstop=2 shiftwidth=2:

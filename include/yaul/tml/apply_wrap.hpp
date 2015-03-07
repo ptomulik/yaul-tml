@@ -18,7 +18,7 @@
 
 namespace yaul { namespace tml { namespace detail {
 
-} } } // end namespace yaul::yaul::tml::detail
+} } } // end namespace yaul::tml::detail
 
 namespace yaul { namespace tml {
 /** // doc: apply_wrap {{{

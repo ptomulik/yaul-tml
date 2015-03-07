@@ -20,7 +20,7 @@
 
 #else // BOOST_PP_IS_ITERATING
 
-namespace yaul { namespace tml { namespace placeholders { typedef arg<BOOST_PP_ITERATION()> BOOST_PP_CAT(_,BOOST_PP_ITERATION()); } } } // end namespace yaul::yaul::tml::placeholders
+namespace yaul { namespace tml { namespace placeholders { typedef arg<BOOST_PP_ITERATION()> BOOST_PP_CAT(_,BOOST_PP_ITERATION()); } } } // end namespace yaul::tml::placeholders
 namespace yaul { namespace tml { using placeholders::BOOST_PP_CAT(_,BOOST_PP_ITERATION()); } } // end namespace yaul::tml
 
 

@@ -17,7 +17,7 @@
 
 namespace yaul { namespace tml { namespace placeholders {
 typedef arg<-1> _;
-} } } // end namespace yaul::yaul::tml::placeholders
+} } } // end namespace yaul::tml::placeholders
 
 namespace yaul { namespace tml {
 using placeholders:: _;

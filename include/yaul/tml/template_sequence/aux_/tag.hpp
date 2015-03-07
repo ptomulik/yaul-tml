@@ -35,7 +35,7 @@ struct template_sequence_tag;
  * \ref TemplateSeqConcept.
  */ // }}}
 struct ts_iter_tag;
-} } } // end namespace yaul::yaul::tml::aux
+} } } // end namespace yaul::tml::aux
 
 #endif /* YAUL_TML_TEMPLATE_SEQUENCE_AUX_TAG_HPP */
 // vim: set expandtab tabstop=2 shiftwidth=2:

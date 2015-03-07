@@ -23,7 +23,7 @@ template <class F, long First, long Last>
     template <class... Args>
       struct apply;
   };
-} } } } // end namespace yaul::yaul::tml::variadic::detail
+} } } } // end namespace yaul::tml::variadic::detail
 
 namespace yaul { namespace tml { namespace variadic {
 /** // doc: erase {{{
@@ -156,7 +156,7 @@ template <class F, long First, long Last>
     struct erase_c<F,First,Last>::apply
       : erase<F,long_<First>,long_<Last> >::template apply<Args... >
     { };
-} } } // end namespace yaul::yaul::tml::variadic
+} } } // end namespace yaul::tml::variadic
 
 #include <yaul/tml/variadic/aux_/erase.hpp>
 

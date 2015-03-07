@@ -24,7 +24,7 @@ template <class F, long N>
     template<class... Args>
       struct apply;
   };
-} } } } // end namespace yaul::yaul::tml::variadic::detail
+} } } } // end namespace yaul::tml::variadic::detail
 
 namespace yaul { namespace tml { namespace variadic {
 /** // doc: erase_back {{{
@@ -157,7 +157,7 @@ template <class F, long N>
     struct erase_back_c<F,N>::apply
       : erase_back<F,long_<N> >::template apply<Args...>
     { };
-} } } // end namespace yaul::yaul::tml::variadic
+} } } // end namespace yaul::tml::variadic
 
 #include <yaul/tml/variadic/aux_/erase_back.hpp>
 

@@ -70,7 +70,7 @@ template <class A1, class... Args>
   struct front::apply
     : ref<A1>
   { };
-} } } // end namespace yaul::yaul::tml::variadic
+} } } // end namespace yaul::tml::variadic
 
 #endif /* YAUL_TML_VARIADIC_FRONT_HPP */
 // vim: set expandtab tabstop=2 shiftwidth=2:

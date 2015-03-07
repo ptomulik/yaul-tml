@@ -78,7 +78,7 @@ template <class F, class A>
     struct push_front<F,A>::apply
       : yaul::tml::apply<F,A,Args...>
     { };
-} } } // end namespace yaul::yaul::tml::variadic
+} } } // end namespace yaul::tml::variadic
 
 #endif /* YAUL_TML_VARIADIC_PUSH_FRONT_HPP */
 // vim: set expandtab tabstop=2 shiftwidth=2:

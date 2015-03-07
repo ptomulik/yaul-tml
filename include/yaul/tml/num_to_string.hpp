@@ -60,7 +60,7 @@ template <class T, T Value, class CharT, unsigned int Base>
       integral_c<CharT, ((Value < 0xA) ? '0' + Value : 'A' + Value-0xA)>
     > type;
   };
-} } } // end namespace yaul::yaul::tml::detail
+} } } // end namespace yaul::tml::detail
 
 namespace yaul { namespace tml {
 /** // doc: num_to_string {{{

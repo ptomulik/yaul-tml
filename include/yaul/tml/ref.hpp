@@ -16,7 +16,7 @@
 #include <yaul/tml/ref_fwd.hpp>
 #include <yaul/tml/if.hpp>
 #include <yaul/tml/identity.hpp>
-#include <boost/type_traits/is_class.hpp>
+#include <type_traits>
 
 namespace yaul { namespace tml {
 /** // doc: ref {{{
@@ -77,7 +77,7 @@ namespace yaul { namespace tml {
  */ // }}}
 template <class T, class Inherit>
   struct ref
-    : if_<boost::is_class<T>, T, identity<T> >::type
+    : if_<std::is_class<T>, T, identity<T> >::type
   {
     typedef T type;
   };

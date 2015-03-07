@@ -30,6 +30,6 @@ template <class F, long Last>
             ::template apply<Tail...>
       { };
   };
-} } } } // end namespace yaul::yaul::tml::variadic::detail
+} } } } // end namespace yaul::tml::variadic::detail
 
 #endif // BOOST_PP_IS_ITERATING

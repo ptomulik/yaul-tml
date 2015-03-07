@@ -19,7 +19,7 @@
 namespace yaul { namespace tml { namespace variadic { namespace detail {
 template <long N>
   struct at_impl;
-} } } } // end namespace yaul::yaul::tml::variadic::detail
+} } } } // end namespace yaul::tml::variadic::detail
 
 namespace yaul { namespace tml { namespace variadic {
 /** // doc: at {{{
@@ -140,7 +140,7 @@ template <long N>
     struct at_c<N>::apply
       : at<long_<N> >::template apply<Args...>
     { };
-} } } // end namespace yaul::yaul::tml::variadic
+} } } // end namespace yaul::tml::variadic
 
 #include <yaul/tml/variadic/aux_/at.hpp>
 

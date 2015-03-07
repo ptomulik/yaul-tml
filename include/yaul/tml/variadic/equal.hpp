@@ -97,7 +97,7 @@ template <class Pred>
           : if_c<(sizeof...(Args2) == 0), true_, false_>::type
         { };
     };
-} } } // end namespace yaul::yaul::tml::variadic
+} } } // end namespace yaul::tml::variadic
 
 #endif /* YAUL_TML_VARIADIC_EQUAL_HPP */
 // vim: set expandtab tabstop=2 shiftwidth=2:

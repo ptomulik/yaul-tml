@@ -28,6 +28,6 @@ template<class F>
         : yaul::tml::apply<F BOOST_PP_ENUM_TRAILING_PARAMS(BOOST_PP_ITERATION(), A), Args...>
       { };
   };
-} } } } // end namespace yaul::yaul::tml::variadic
+} } } } // end namespace yaul::tml::variadic
 
 #endif // BOOST_PP_IS_ITERATING

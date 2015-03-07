@@ -78,7 +78,7 @@ template<class F, class... Args1>
     struct join<F,Args1...>::apply
       : yaul::tml::apply<F,Args1...,Args2...>
     { };
-} } } // end namespace yaul::yaul::tml::variadic
+} } } // end namespace yaul::tml::variadic
 
 #endif /* YAUL_TML_VARIADIC_JOIN_HPP */
 // vim: set expandtab tabstop=2 shiftwidth=2:

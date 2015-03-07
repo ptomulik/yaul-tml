@@ -30,7 +30,7 @@ template <bool... Tail>
   struct all_impl<true,Tail...>
     : all_impl<Tail...>
   { };
-} } } } // end namespace yaul::yaul::tml::variadic::detail
+} } } } // end namespace yaul::tml::variadic::detail
 
 namespace yaul { namespace tml { namespace variadic {
 /** // doc: all {{{
@@ -97,7 +97,7 @@ template <class F>
     struct all<F>::apply
       : detail::all_impl<yaul::tml::apply<F,Args>::type::value...>
     { };
-} } } // end namespace yaul::yaul::tml::variadic
+} } } // end namespace yaul::tml::variadic
 
 #include <yaul/tml/variadic/aux_/all.hpp>
 

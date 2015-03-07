@@ -99,7 +99,7 @@ template<class CharT>
   template<class... Chars>
     constexpr CharT const
       c_str<CharT>::apply<Chars...>::value[sizeof...(Chars)+1];
-} } } // end namespace yaul::yaul::tml::variadic
+} } } // end namespace yaul::tml::variadic
 
 #endif /* YAUL_TML_VARIADIC_C_STR_HPP */
 // vim: set expandtab tabstop=2 shiftwidth=2:

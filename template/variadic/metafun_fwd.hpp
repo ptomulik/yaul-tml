@@ -20,7 +20,7 @@ template <class T/*TODO: args*/>
     template <class...>
       struct apply;
   };
-} } } // end namespace yaul::yaul::tml::variadic
+} } } // end namespace yaul::tml::variadic
 
 #endif /* YAUL_TML_VARIADIC_XXX_FWD_HPP */
 // vim: set expandtab tabstop=2 shiftwidth=2:

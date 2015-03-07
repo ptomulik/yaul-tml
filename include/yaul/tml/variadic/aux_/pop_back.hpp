@@ -24,6 +24,6 @@ template <class F>
     struct pop_back<F>::apply<BOOST_PP_ENUM_PARAMS(BOOST_PP_ITERATION(), A)>
       : yaul::tml::apply<F BOOST_PP_ENUM_TRAILING_PARAMS(BOOST_PP_DEC(BOOST_PP_ITERATION()), A)>
     { };
-} } } // end namespace yaul::yaul::tml::variadic
+} } } // end namespace yaul::tml::variadic
 
 #endif // BOOST_PP_IS_ITERATING

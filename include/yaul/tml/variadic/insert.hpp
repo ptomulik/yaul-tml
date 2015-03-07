@@ -23,7 +23,7 @@ template <class F, long N, class T>
     template <class... Args>
       struct apply;
   };
-} } } } // end namespace yaul::yaul::tml::variadic::detail
+} } } } // end namespace yaul::tml::variadic::detail
 
 namespace yaul { namespace tml { namespace variadic {
 /** // doc: insert {{{
@@ -161,7 +161,7 @@ template <class F, long Pos, class T>
       : insert<F,long_<Pos>,T>
           :: template apply<Args...>
     { };
-} } } // end namespace yaul::yaul::tml::variadic
+} } } // end namespace yaul::tml::variadic
 
 #include <yaul/tml/variadic/aux_/insert.hpp>
 

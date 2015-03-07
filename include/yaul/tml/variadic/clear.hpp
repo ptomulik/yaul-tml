@@ -75,7 +75,7 @@ template <class F>
     struct clear<F>::apply
       : yaul::tml::apply<F>
     { };
-} } } // end namespace yaul::yaul::tml::variadic
+} } } // end namespace yaul::tml::variadic
 
 #endif /* YAUL_TML_VARIADIC_CLEAR_HPP */
 // vim: set expandtab tabstop=2 shiftwidth=2:

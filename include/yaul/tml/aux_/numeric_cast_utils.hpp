@@ -43,7 +43,7 @@ template <class Tag, class T>
   struct cast2nd<Tag,Tag,T>
     : identity<T>
   { };
-} } } // end namespace yaul::yaul::tml::aux
+} } } // end namespace yaul::tml::aux
 
 #endif /* YAUL_TML_AUX_NUMERIC_CAST_UTILS_HPP */
 // vim: set expandtab tabstop=2 shiftwidth=2:

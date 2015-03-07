@@ -28,7 +28,7 @@ template <class F>
       {
       };
   };
-} } } // end namespace yaul::yaul::tml::detail
+} } } // end namespace yaul::tml::detail
 
 namespace yaul { namespace tml {
 /** // doc: protect {{{

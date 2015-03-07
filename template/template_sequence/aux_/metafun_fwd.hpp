@@ -16,7 +16,7 @@
 namespace yaul { namespace tml { namespace aux {
 template <class T/*TODO: args*/>
   struct xxx;
-} } } // end namespace yaul::yaul::tml::aux
+} } } // end namespace yaul::tml::aux
 
 #endif /* YAUL_TML_TEMPLATE_SEQUENCE_AUX_XXX_FWD_HPP */
 // vim: set expandtab tabstop=2 shiftwidth=2:

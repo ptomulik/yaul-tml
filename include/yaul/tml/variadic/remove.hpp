@@ -23,7 +23,7 @@ template <class F, long N>
     template<class... Args>
       struct apply;
   };
-} } } } // end namespace yaul::yaul::tml::variadic::detail
+} } } } // end namespace yaul::tml::variadic::detail
 
 namespace yaul { namespace tml { namespace variadic {
 /** // doc: remove {{{
@@ -147,7 +147,7 @@ template <class F, long N>
     struct remove_c<F,N>::apply
       : remove<F,long_<N> >::template apply<Args...>
     { };
-} } } // end namespace yaul::yaul::tml::variadic
+} } } // end namespace yaul::tml::variadic
 
 #include <yaul/tml/variadic/aux_/remove.hpp>
 

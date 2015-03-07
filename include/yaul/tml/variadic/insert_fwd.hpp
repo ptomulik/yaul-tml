@@ -26,7 +26,7 @@ template <class F, long Pos, class T>
     template <class...>
       struct apply;
   };
-} } } // end namespace yaul::yaul::tml::variadic
+} } } // end namespace yaul::tml::variadic
 
 #endif /* YAUL_TML_VARIADIC_INSERT_FWD_HPP */
 // vim: set expandtab tabstop=2 shiftwidth=2:

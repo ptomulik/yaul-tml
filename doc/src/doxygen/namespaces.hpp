@@ -12,7 +12,7 @@ namespace yaul { namespace tml {
  * \brief Implementation details for tml operations.
  */ // }}}
 namespace detail {
-} } // end namespace yaul::yaul::tml::detail
+} } // end namespace yaul::tml::detail
 /** // doc: variadic {{{
  * \brief Support for metafunctions operating on variadic templates (sequences).
  *
@@ -29,8 +29,8 @@ namespace variadic {
  * \brief Implementation details for yaul::tml::variadic operations.
  */ // }}}
 namespace detail {
-} } // end namespace yaul::yaul::tml::variadic::detail
-} } // end namespace yaul::yaul::tml::variadic
+} } // end namespace yaul::tml::variadic::detail
+} } // end namespace yaul::tml::variadic
 } } // end namespace yaul::tml
 
 // vim: set expandtab tabstop=2 shiftwidth=2:

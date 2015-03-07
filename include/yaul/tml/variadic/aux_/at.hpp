@@ -27,6 +27,6 @@ template<>
         : ref<BOOST_PP_CAT(A,BOOST_PP_ITERATION())>
       { };
   };
-} } } } // end namespace yaul::yaul::tml::variadic::detail
+} } } } // end namespace yaul::tml::variadic::detail
 
 #endif // BOOST_PP_IS_ITERATING

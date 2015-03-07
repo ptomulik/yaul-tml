@@ -74,7 +74,7 @@ template<class... Args>
   struct empty::apply
     : bool_<(sizeof...(Args) == 0ul)>
   { };
-} } } // end namespace yaul::yaul::tml::variadic
+} } } // end namespace yaul::tml::variadic
 
 #endif /* YAUL_TML_VARIADIC_EMPTY_HPP */
 // vim: set expandtab tabstop=2 shiftwidth=2:

@@ -261,4 +261,4 @@ namespace yaul { namespace tml {
  */
 
 /** @} */
-}
+} } // end namespace yaul::tml

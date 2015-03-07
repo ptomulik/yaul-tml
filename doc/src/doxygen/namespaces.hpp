@@ -4,15 +4,18 @@
 // (See accompanying file LICENSE_1_0.txt or copy at
 //  http://www.boost.org/LICENSE_1_0.txt)
 
-/** // doc: tml {{{
- * \brief Main namespace for the entire library.
+/** // doc: yaul {{{
+ * \brief Main namespace for the parent yaul library.
  */ // }}}
-namespace yaul { namespace tml {
+namespace yaul {
+/** // doc: tml {{{
+ * \brief Main namespace for the entire tml library.
+ */ // }}}
+namespace tml {
 /** // doc: detail {{{
  * \brief Implementation details for tml operations.
  */ // }}}
-namespace detail {
-} } // end namespace yaul::tml::detail
+namespace detail { }
 /** // doc: variadic {{{
  * \brief Support for metafunctions operating on variadic templates (sequences).
  *
@@ -28,10 +31,10 @@ namespace variadic {
 /** // doc: variadic {{{
  * \brief Implementation details for yaul::tml::variadic operations.
  */ // }}}
-namespace detail {
-} } // end namespace yaul::tml::variadic::detail
-} } // end namespace yaul::tml::variadic
-} } // end namespace yaul::tml
+namespace detail { }
+} // end namespace variadic
+} // end namespace tml
+} // end namespace yaul
 
 // vim: set expandtab tabstop=2 shiftwidth=2:
 // vim: set foldmethod=marker foldcolumn=4:

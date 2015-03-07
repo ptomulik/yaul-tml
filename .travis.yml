@@ -24,7 +24,7 @@ install:
 #  - sudo pip install cpp-coveralls;
 
 before_script:
-  - cat "project yaul-tml : requirements <include>include : build-dir bin.v2 ;" > Jamroot
+  - cat '"project yaul-tml : requirements <include>include : build-dir bin.v2 ;"' > Jamroot
   - $CXX --version;
   - $CXX -dumpversion;
 

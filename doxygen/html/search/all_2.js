@@ -25,7 +25,7 @@ var searchData=
   ['clear_2ehpp',['clear.hpp',['../variadic_2clear_8hpp.html',1,'']]],
   ['clear_5ffwd_2ehpp',['clear_fwd.hpp',['../clear__fwd_8hpp.html',1,'']]],
   ['clear_5ffwd_2ehpp',['clear_fwd.hpp',['../variadic_2clear__fwd_8hpp.html',1,'']]],
-  ['concepts',['Concepts',['../Concepts.html',1,'']]],
+  ['concepts',['Concepts',['../ConceptsPage.html',1,'']]],
   ['comparisons',['Comparisons',['../group__MetafunComparisonsGroup.html',1,'']]],
   ['composition_20and_20argument_20binding',['Composition and Argument Binding',['../group__MetafunComposeBindGroup.html',1,'']]],
   ['classes',['Classes',['../group__SeqClassGroup.html',1,'']]],

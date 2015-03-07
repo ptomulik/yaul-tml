@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['lambda_20expression',['Lambda Expression',['../LambdaExprConcept.html',1,'Concepts']]]
+  ['lambda_20expression',['Lambda Expression',['../LambdaExprConcept.html',1,'ConceptsPage']]]
 ];

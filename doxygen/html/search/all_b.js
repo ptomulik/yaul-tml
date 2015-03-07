@@ -44,6 +44,6 @@ var searchData=
   ['numeric_5ftag_2ecpp',['numeric_tag.cpp',['../numeric__tag_8cpp.html',1,'']]],
   ['numeric_5ftag_2ehpp',['numeric_tag.hpp',['../numeric__tag_8hpp.html',1,'']]],
   ['numeric_5ftag_5ffwd_2ehpp',['numeric_tag_fwd.hpp',['../numeric__tag__fwd_8hpp.html',1,'']]],
-  ['numeric_20metafunction',['Numeric Metafunction',['../NumericMetafunConcept.html',1,'Concepts']]],
+  ['numeric_20metafunction',['Numeric Metafunction',['../NumericMetafunConcept.html',1,'ConceptsPage']]],
   ['numeric',['Numeric',['../group__TypesNumericGroup.html',1,'']]]
 ];

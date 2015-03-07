@@ -1,7 +1,7 @@
 var NAVTREE =
 [
   [ "TML", "index.html", [
-    [ "Concepts", "Concepts.html", "Concepts" ],
+    [ "Concepts", "ConceptsPage.html", "ConceptsPage" ],
     [ "Todo List", "todo.html", null ],
     [ "Modules", "modules.html", "modules" ],
     [ "Namespaces", null, [

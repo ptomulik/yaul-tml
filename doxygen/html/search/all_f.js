@@ -1,8 +1,8 @@
 var searchData=
 [
   ['runtime_20algorithms',['Runtime Algorithms',['../group__AlgoRTGroup.html',1,'']]],
-  ['random_20access_20iterator',['Random Access Iterator',['../RandomIterConcept.html',1,'Concepts']]],
-  ['random_20access_20sequence',['Random Access Sequence',['../RandomSeqConcept.html',1,'Concepts']]],
+  ['random_20access_20iterator',['Random Access Iterator',['../RandomIterConcept.html',1,'ConceptsPage']]],
+  ['random_20access_20sequence',['Random Access Sequence',['../RandomSeqConcept.html',1,'ConceptsPage']]],
   ['ref',['ref',['../structyaul_1_1tml_1_1ref.html',1,'yaul::tml']]],
   ['ref_2ecpp',['ref.cpp',['../ref_8cpp.html',1,'']]],
   ['ref_2ehpp',['ref.hpp',['../ref_8hpp.html',1,'']]],

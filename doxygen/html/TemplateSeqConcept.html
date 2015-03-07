@@ -106,21 +106,21 @@ $(document).ready(function(){initNavTree('TemplateSeqConcept.html','');});
 <div class="title">Template Sequence </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h2>Description </h2>
+<div class="textblock"><dl class="section user"><dt>Description</dt><dd></dd></dl>
 <p>A <a class="el" href="TemplateSeqConcept.html">Template Sequence</a> <code>S</code> is an instantiation of a template class <code>X</code> which matches the following template parameter specification</p>
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;template&lt;class ...&gt; struct Y</div>
+<div class="fragment"><div class="line"><span class="keyword">template</span>&lt;<span class="keyword">class </span>...&gt; <span class="keyword">struct </span>Y</div>
 </div><!-- fragment --><p>and for which the expression requirements listed below hold.</p>
 <p>That said, any variadic and fixed-size template class with type template parameters only may fulfil the requirements of <a class="el" href="TemplateSeqConcept.html">Template Sequence</a> concept.</p>
-<h2>Refinement of </h2>
+<dl class="section user"><dt>Refinement of</dt><dd></dd></dl>
 <p><a class="el" href="RandomSeqConcept.html">Random Access Sequence</a></p>
-<h2>Expression requirements </h2>
+<dl class="section user"><dt>Expression requirements</dt><dd></dd></dl>
 <p>Assume that</p>
 <ul>
 <li><code>S</code> is a model of <a class="el" href="TemplateSeqConcept.html">Template Sequence</a>,</li>
-<li><code>X</code> is a template class matching the following template parameter specification <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;template&lt;class...&gt; struct Y</div>
+<li><code>X</code> is a template class matching the following template parameter specification <div class="fragment"><div class="line"><span class="keyword">template</span>&lt;<span class="keyword">class</span>...&gt; <span class="keyword">struct </span>Y</div>
 </div><!-- fragment --> and such that <code>X&lt;T0,...T{n-1}&gt;</code> is identical to <code>S</code> for some types <code>T0,...T{n-1}</code>,</li>
 <li><code>i</code> is an <a class="el" href="IntConstConcept.html">Integral Constant</a> (<code>0 &lt;= i::value &lt; n</code>), and</li>
-<li><code>F</code> is a <a class="el" href="LambdaExprConcept.html">Lambda Expression</a> such that <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;typedef apply&lt;F,T0,...T{n-1}&gt;::type R;</div>
+<li><code>F</code> is a <a class="el" href="LambdaExprConcept.html">Lambda Expression</a> such that <div class="fragment"><div class="line"><span class="keyword">typedef</span> apply&lt;F,T0,...T{n-1}&gt;::type R;</div>
 </div><!-- fragment --> has constant time complexity</li>
 </ul>
 <p>Then the following expressions requirements must hold</p>
@@ -128,42 +128,42 @@ $(document).ready(function(){initNavTree('TemplateSeqConcept.html','');});
 <tr>
 <th>Expression </th><th>Type </th><th>Complexity  </th></tr>
 <tr>
-<td><code>at&lt; S, i &gt; :: type</code> </td><td><code>Ti</code> </td><td>Constant time </td></tr>
+<td><code>at&lt;S, i&gt;::type</code> </td><td><code>Ti</code> </td><td>Constant time </td></tr>
 <tr>
-<td><code>front&lt; S &gt; :: type</code> </td><td><code>T0</code> </td><td>Constant time </td></tr>
+<td><code>front&lt;S&gt;::type</code> </td><td><code>T0</code> </td><td>Constant time </td></tr>
 <tr>
-<td><code>back&lt; S &gt; :: type</code> </td><td><code>T{n-1}</code> </td><td>Constant time </td></tr>
+<td><code>back&lt;S&gt;::type</code> </td><td><code>T{n-1}</code> </td><td>Constant time </td></tr>
 <tr>
-<td><code>size&lt; S &gt; :: type</code> </td><td><a class="el" href="IntConstConcept.html">Integral Constant</a> </td><td>Constant time </td></tr>
+<td><code>size&lt;S&gt;::type</code> </td><td><a class="el" href="IntConstConcept.html">Integral Constant</a> </td><td>Constant time </td></tr>
 <tr>
-<td><code>apply_sequence&lt; F, S &gt; :: type</code> </td><td><code>R</code> </td><td>Constant time </td></tr>
+<td><code>apply_sequence&lt;F, S&gt;::type</code> </td><td><code>R</code> </td><td>Constant time </td></tr>
 </table>
-<h2>Expression semantics </h2>
+<dl class="section user"><dt>Expression semantics</dt><dd></dd></dl>
 <table class="doxtable">
 <tr>
 <th>Expression </th><th>Semantics  </th></tr>
 <tr>
-<td><code>apply_sequence&lt; F, S &gt; :: type</code> </td><td>Equivalent to <code>apply&lt; F, T1, ...Tn&gt; :: type</code> </td></tr>
+<td><code>apply_sequence&lt;F, S&gt;::type</code> </td><td>Equivalent to <code>apply&lt;F, T1, ...Tn&gt;::type</code> </td></tr>
 </table>
-<h2>Invariants </h2>
+<dl class="section user"><dt>Invariants</dt><dd></dd></dl>
 <p>For any <a class="el" href="TemplateSeqConcept.html">Template Sequence</a> <code>S</code> being an instantiation <code>X&lt;T0,...T{n-1}&gt;</code> of some template <code>X</code> the following invariants always hold:</p>
 <ul>
-<li><code>size &lt; S &gt; :: value == n</code>,</li>
+<li><code>size&lt;S&gt;::value == n</code>,</li>
 </ul>
-<h2>Models </h2>
+<dl class="section user"><dt>Models</dt><dd></dd></dl>
 <ul>
 <li>model1</li>
 <li>model2</li>
 </ul>
-<h2>See also </h2>
+<dl class="section user"><dt>See also</dt><dd></dd></dl>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.7-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="Concepts.html">Concepts</a></li>
-    <li class="footer">Generated on Sat Mar 7 2015 22:22:29 for TML by
+    <li class="navelem"><a class="el" href="ConceptsPage.html">Concepts</a></li>
+    <li class="footer">Generated on Sat Mar 7 2015 23:19:55 for TML by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

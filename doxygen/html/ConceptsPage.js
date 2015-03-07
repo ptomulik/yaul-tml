@@ -1,4 +1,4 @@
-var Concepts =
+var ConceptsPage =
 [
     [ "Back Extensible Sequence", "BackExtensibleSeqConcept.html", null ],
     [ "Bidirectional Iterator", "BidirIterConcept.html", null ],

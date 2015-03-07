@@ -4,7 +4,7 @@ var NAVTREEINDEX0 =
 "BackExtensibleSeqConcept.html":[0,0],
 "BidirIterConcept.html":[0,1],
 "BidirSeqConcept.html":[0,2],
-"Concepts.html":[0],
+"ConceptsPage.html":[0],
 "ExtensibleSeqConcept.html":[0,3],
 "ForwardIterConcept.html":[0,4],
 "ForwardSeqConcept.html":[0,5],

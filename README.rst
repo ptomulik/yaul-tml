@@ -359,7 +359,7 @@ Generating reference manual
 
     (cd doc/ && doxygen)
 
-The generated documentation is written to ``doc/refman/html``.
+The generated documentation is written to ``doc/doxygen/html``.
 
 Running tests
 -------------
@@ -385,4 +385,4 @@ Distributed under the Boost Software License, Version 1.0.
 
 .. _Boost.MPL: http://www.boost.org/libs/mpl/doc/
 .. _tinympl: https://github.com/sbabbi/tinympl
-.. _reference manual: http://ptomulik.github.io/yaul/tml/refman/html/
+.. _reference manual: http://ptomulik.github.io/yaul-tml/doxygen/html/

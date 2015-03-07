@@ -58,3 +58,4 @@ bin.v2/
 #############################################################################
 # Ignore generated documentation 
 /doc/doxygen/
+/doxygen

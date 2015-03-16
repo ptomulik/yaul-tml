@@ -173,8 +173,8 @@ Iteration Algorighmts
 Querying Algorithms
 ```````````````````
 
-- [ ] find,
-- [ ] find_if,
+- [x] find,
+- [x] find_if,
 - [ ] contains,
 - [ ] count,
 - [ ] count_if,

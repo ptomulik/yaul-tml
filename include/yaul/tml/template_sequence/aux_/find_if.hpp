@@ -14,9 +14,10 @@
 #define YAUL_TML_TEMPLATE_SEQUENCE_AUX_FIND_IF_HPP
 
 #include <yaul/tml/find_if_fwd.hpp>
-#include <yaul/tml/variadic/find.hpp>
+#include <yaul/tml/variadic/find_if.hpp>
 #include <yaul/tml/apply_sequence.hpp>
 #include <yaul/tml/template_sequence/aux_/tag.hpp>
+#include <yaul/tml/template_sequence/aux_/iterator.hpp>
 
 namespace yaul { namespace tml {
 template <>
@@ -24,8 +25,11 @@ template <>
   {
     template<class Sequence, class Pred>
       struct apply
-        : apply_sequence<variadic::find_if<Pred>, Sequence>
       {
+      private:
+        static constexpr long s_ = apply_sequence<variadic::find_if<Pred>, Sequence>::value;
+      public:
+        typedef ts_iter<Sequence, s_> type;
       };
   };
 } } // end namespace yaul::tml

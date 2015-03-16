@@ -109,6 +109,7 @@ template<class T, T... Args>
 } } // end namespace yaul::tml
 
 #include <yaul/tml/template_sequence/metafunctions.hpp>
+#include <yaul/tml/template_sequence/algorithms.hpp>
 #include <yaul/tml/template_sequence/aux_/iterator.hpp>
 
 #endif /* YAUL_TML_SEQUENCE_HPP */

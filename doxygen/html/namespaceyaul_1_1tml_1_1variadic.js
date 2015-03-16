@@ -15,6 +15,8 @@ var namespaceyaul_1_1tml_1_1variadic =
     [ "erase_c", "structyaul_1_1tml_1_1variadic_1_1erase__c.html", null ],
     [ "erase_front", "structyaul_1_1tml_1_1variadic_1_1erase__front.html", null ],
     [ "erase_front_c", "structyaul_1_1tml_1_1variadic_1_1erase__front__c.html", null ],
+    [ "find", "structyaul_1_1tml_1_1variadic_1_1find.html", null ],
+    [ "find_if", "structyaul_1_1tml_1_1variadic_1_1find__if.html", null ],
     [ "front", "structyaul_1_1tml_1_1variadic_1_1front.html", null ],
     [ "insert", "structyaul_1_1tml_1_1variadic_1_1insert.html", null ],
     [ "insert_c", "structyaul_1_1tml_1_1variadic_1_1insert__c.html", null ],

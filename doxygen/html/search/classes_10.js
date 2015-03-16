@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['same_5fas',['same_as',['../structyaul_1_1tml_1_1same__as.html',1,'yaul::tml']]],
   ['sequence',['sequence',['../structyaul_1_1tml_1_1sequence.html',1,'yaul::tml']]],
   ['sequence_5fc',['sequence_c',['../structyaul_1_1tml_1_1sequence__c.html',1,'yaul::tml']]],
   ['sequence_5fgenerator',['sequence_generator',['../structyaul_1_1tml_1_1sequence__generator.html',1,'yaul::tml']]],

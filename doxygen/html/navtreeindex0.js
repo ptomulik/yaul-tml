@@ -28,6 +28,8 @@ var NAVTREEINDEX0 =
 "advance_8hpp_source.html":[5,0,0,0,5],
 "advance__fwd_8hpp.html":[5,0,0,0,6],
 "advance__fwd_8hpp_source.html":[5,0,0,0,6],
+"algorithms_8hpp.html":[5,0,0,0,3,1],
+"algorithms_8hpp_source.html":[5,0,0,0,3,1],
 "all_8cpp.html":[5,0,1,0,1,0],
 "all_8hpp.html":[5,0,0,0,4,1],
 "all_8hpp_source.html":[5,0,0,0,4,1],
@@ -121,7 +123,7 @@ var NAVTREEINDEX0 =
 "aux___2placeholders_8hpp_source.html":[5,0,0,0,0,20],
 "aux___2plus_8hpp.html":[5,0,0,0,0,21],
 "aux___2plus_8hpp_source.html":[5,0,0,0,0,21],
-"aux___2remove_8hpp_source.html":[5,0,0,0,4,0,9],
+"aux___2remove_8hpp_source.html":[5,0,0,0,4,0,10],
 "aux___2shift__left_8hpp.html":[5,0,0,0,0,22],
 "aux___2shift__left_8hpp_source.html":[5,0,0,0,0,22],
 "aux___2shift__right_8hpp.html":[5,0,0,0,0,23],
@@ -247,7 +249,5 @@ var NAVTREEINDEX0 =
 "equal__to__fwd_8hpp_source.html":[5,0,0,0,60],
 "erase_8cpp.html":[5,0,1,0,29],
 "erase_8hpp.html":[5,0,0,0,61],
-"erase_8hpp_source.html":[5,0,0,0,61],
-"erase__back_8cpp.html":[5,0,1,0,1,9],
-"erase__back_8hpp.html":[5,0,0,0,4,18]
+"erase_8hpp_source.html":[5,0,0,0,61]
 };

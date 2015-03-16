@@ -11,6 +11,8 @@ var dir_6d7c82d092c4385c8238c8c30e3ac153 =
     [ "erase.cpp", "variadic_2erase_8cpp.html", null ],
     [ "erase_back.cpp", "erase__back_8cpp.html", null ],
     [ "erase_front.cpp", "erase__front_8cpp.html", null ],
+    [ "find.cpp", "variadic_2find_8cpp.html", null ],
+    [ "find_if.cpp", "variadic_2find__if_8cpp.html", null ],
     [ "front.cpp", "variadic_2front_8cpp.html", null ],
     [ "insert.cpp", "variadic_2insert_8cpp.html", null ],
     [ "join.cpp", "variadic_2join_8cpp.html", null ],

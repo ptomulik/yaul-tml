@@ -116,17 +116,21 @@ $(document).ready(function(){initNavTree('yaul_2tml_2end_8cpp-example.html','');
 <div class="line"><span class="comment">// [Code]</span></div>
 <div class="line"><span class="preprocessor">#include &lt;<a class="code" href="sequence_8hpp.html">yaul/tml/sequence.hpp</a>&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;<a class="code" href="end_8hpp.html">yaul/tml/end.hpp</a>&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;<a class="code" href="deref_8hpp.html">yaul/tml/deref.hpp</a>&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;<a class="code" href="prior_8hpp.html">yaul/tml/prior.hpp</a>&gt;</span></div>
 <div class="line"></div>
 <div class="line"><span class="keyword">using namespace </span><a class="code" href="namespaceyaul_1_1tml.html">yaul::tml</a>;</div>
 <div class="line"></div>
-<div class="line"><span class="keyword">typedef</span> <a name="_a0"></a><a class="code" href="structyaul_1_1tml_1_1sequence.html">sequence&lt;char,short,int,float&gt;</a> s1;</div>
-<div class="line"><span class="keyword">typedef</span> <a name="_a1"></a><a class="code" href="structyaul_1_1tml_1_1end.html">end&lt;s1&gt;::type</a> e1;</div>
-<div class="line"><span class="keyword">typedef</span> <a name="_a2"></a><a class="code" href="structyaul_1_1tml_1_1deref.html">deref&lt;prior&lt;e1&gt;::type</a>&gt;::type last;</div>
+<div class="line"><span class="keyword">typedef</span> <a name="_a0"></a><a class="code" href="structyaul_1_1tml_1_1sequence.html">sequence&lt;&gt;</a> <a class="code" href="structyaul_1_1tml_1_1sequence.html">s0</a>;</div>
+<div class="line"><span class="keyword">typedef</span> <a name="_a1"></a><a class="code" href="structyaul_1_1tml_1_1end.html">end&lt;s0&gt;::type</a> e0; <span class="comment">// ensure, that end works on empty sequences</span></div>
+<div class="line"></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="code" href="deref_8hpp.html">yaul/tml/deref.hpp</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="code" href="prior_8hpp.html">yaul/tml/prior.hpp</a>&gt;</span></div>
+<div class="line"></div>
+<div class="line"><span class="keyword">typedef</span> <a class="code" href="structyaul_1_1tml_1_1sequence.html">sequence&lt;char,short,int,float&gt;</a> s1;</div>
+<div class="line"><span class="keyword">typedef</span> <a class="code" href="structyaul_1_1tml_1_1end.html">end&lt;s1&gt;::type</a> e1;</div>
+<div class="line"><span class="keyword">typedef</span> <a name="_a2"></a><a class="code" href="structyaul_1_1tml_1_1deref.html">deref&lt;prior&lt;e1&gt;::type</a>&gt;::type last1;</div>
 <div class="line"></div>
 <div class="line"><span class="preprocessor">#include &lt;<a class="code" href="is__same_8hpp.html">yaul/tml/is_same.hpp</a>&gt;</span></div>
-<div class="line">static_assert(<a name="_a3"></a><a class="code" href="structyaul_1_1tml_1_1is__same.html">is_same&lt;last, float&gt;::value</a>, <span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line">static_assert(<a name="_a3"></a><a class="code" href="structyaul_1_1tml_1_1is__same.html">is_same&lt;last1, float&gt;::value</a>, <span class="stringliteral">&quot;&quot;</span>);</div>
 <div class="line"><span class="comment">// [Code]</span></div>
 <div class="line"></div>
 <div class="line"><span class="keywordtype">int</span> main() { <span class="keywordflow">return</span> 0; }</div>
@@ -139,7 +143,7 @@ $(document).ready(function(){initNavTree('yaul_2tml_2end_8cpp-example.html','');
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sat Mar 7 2015 23:19:43 for TML by
+    <li class="footer">Generated on Mon Mar 16 2015 15:53:49 for TML by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

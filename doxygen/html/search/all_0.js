@@ -7,6 +7,7 @@ var searchData=
   ['advance_2ehpp',['advance.hpp',['../template__sequence_2aux___2advance_8hpp.html',1,'']]],
   ['advance_5ffwd_2ehpp',['advance_fwd.hpp',['../advance__fwd_8hpp.html',1,'']]],
   ['algorithms',['Algorithms',['../group__AlgoGroup.html',1,'']]],
+  ['algorithms_2ehpp',['algorithms.hpp',['../algorithms_8hpp.html',1,'']]],
   ['all',['all',['../structyaul_1_1tml_1_1variadic_1_1all.html',1,'yaul::tml::variadic']]],
   ['all_2ecpp',['all.cpp',['../all_8cpp.html',1,'']]],
   ['all_2ehpp',['all.hpp',['../all_8hpp.html',1,'']]],
@@ -77,8 +78,8 @@ var searchData=
   ['at_2ehpp',['at.hpp',['../variadic_2at_8hpp.html',1,'']]],
   ['at_3c_20iterator_3a_3asequence_2c_20iterator_3a_3apos_20_3e',['at&lt; Iterator::sequence, Iterator::pos &gt;',['../structyaul_1_1tml_1_1at.html',1,'yaul::tml']]],
   ['at_3c_20sequence_2c_20long_5f_3c_20n_20_3e_20_3e',['at&lt; Sequence, long_&lt; N &gt; &gt;',['../structyaul_1_1tml_1_1at.html',1,'yaul::tml']]],
-  ['at_5fc',['at_c',['../structyaul_1_1tml_1_1variadic_1_1at__c.html',1,'yaul::tml::variadic']]],
   ['at_5fc',['at_c',['../structyaul_1_1tml_1_1at__c.html',1,'yaul::tml']]],
+  ['at_5fc',['at_c',['../structyaul_1_1tml_1_1variadic_1_1at__c.html',1,'yaul::tml::variadic']]],
   ['at_5ffwd_2ehpp',['at_fwd.hpp',['../variadic_2at__fwd_8hpp.html',1,'']]],
   ['at_5ffwd_2ehpp',['at_fwd.hpp',['../at__fwd_8hpp.html',1,'']]],
   ['arithmetic_20operations',['Arithmetic Operations',['../group__MetafunArithmeticOpsGroup.html',1,'']]]

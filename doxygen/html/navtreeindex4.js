@@ -1,0 +1,19 @@
+var NAVTREEINDEX4 =
+{
+"yaul_2tml_2variadic_2empty_8cpp-example.html":[6,104],
+"yaul_2tml_2variadic_2equal_8cpp-example.html":[6,105],
+"yaul_2tml_2variadic_2erase_8cpp-example.html":[6,106],
+"yaul_2tml_2variadic_2erase_back_8cpp-example.html":[6,107],
+"yaul_2tml_2variadic_2erase_front_8cpp-example.html":[6,108],
+"yaul_2tml_2variadic_2find_8cpp-example.html":[6,109],
+"yaul_2tml_2variadic_2find_if_8cpp-example.html":[6,110],
+"yaul_2tml_2variadic_2front_8cpp-example.html":[6,111],
+"yaul_2tml_2variadic_2insert_8cpp-example.html":[6,112],
+"yaul_2tml_2variadic_2join_8cpp-example.html":[6,113],
+"yaul_2tml_2variadic_2pop_back_8cpp-example.html":[6,114],
+"yaul_2tml_2variadic_2pop_front_8cpp-example.html":[6,115],
+"yaul_2tml_2variadic_2push_back_8cpp-example.html":[6,116],
+"yaul_2tml_2variadic_2push_front_8cpp-example.html":[6,117],
+"yaul_2tml_2variadic_2remove_8cpp-example.html":[6,118],
+"yaul_2tml_2void_8cpp-example.html":[6,119]
+};

@@ -30,9 +30,10 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 ".html",
-"erase__back_8hpp_source.html",
-"plus_8hpp_source.html",
-"template__sequence_2aux___2pop__back_8cpp.html"
+"erase__back_8cpp.html",
+"numeric__tag__fwd_8hpp.html",
+"template__sequence_2aux___2deref_8hpp.html",
+"yaul_2tml_2variadic_2empty_8cpp-example.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

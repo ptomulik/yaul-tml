@@ -5,6 +5,7 @@ var searchData=
   ['advance_2ehpp',['advance.hpp',['../template__sequence_2aux___2advance_8hpp.html',1,'']]],
   ['advance_2ehpp',['advance.hpp',['../advance_8hpp.html',1,'']]],
   ['advance_5ffwd_2ehpp',['advance_fwd.hpp',['../advance__fwd_8hpp.html',1,'']]],
+  ['algorithms_2ehpp',['algorithms.hpp',['../algorithms_8hpp.html',1,'']]],
   ['all_2ecpp',['all.cpp',['../all_8cpp.html',1,'']]],
   ['all_2ehpp',['all.hpp',['../all_8hpp.html',1,'']]],
   ['all_5ffwd_2ehpp',['all_fwd.hpp',['../all__fwd_8hpp.html',1,'']]],
@@ -33,12 +34,12 @@ var searchData=
   ['arg_2ehpp',['arg.hpp',['../arg_8hpp.html',1,'']]],
   ['arg_5ffwd_2ehpp',['arg_fwd.hpp',['../arg__fwd_8hpp.html',1,'']]],
   ['arity_2ehpp',['arity.hpp',['../arity_8hpp.html',1,'']]],
-  ['at_2ecpp',['at.cpp',['../at_8cpp.html',1,'']]],
   ['at_2ecpp',['at.cpp',['../variadic_2at_8cpp.html',1,'']]],
   ['at_2ecpp',['at.cpp',['../template__sequence_2aux___2at_8cpp.html',1,'']]],
-  ['at_2ehpp',['at.hpp',['../at_8hpp.html',1,'']]],
+  ['at_2ecpp',['at.cpp',['../at_8cpp.html',1,'']]],
   ['at_2ehpp',['at.hpp',['../template__sequence_2aux___2at_8hpp.html',1,'']]],
   ['at_2ehpp',['at.hpp',['../variadic_2at_8hpp.html',1,'']]],
-  ['at_5ffwd_2ehpp',['at_fwd.hpp',['../at__fwd_8hpp.html',1,'']]],
-  ['at_5ffwd_2ehpp',['at_fwd.hpp',['../variadic_2at__fwd_8hpp.html',1,'']]]
+  ['at_2ehpp',['at.hpp',['../at_8hpp.html',1,'']]],
+  ['at_5ffwd_2ehpp',['at_fwd.hpp',['../variadic_2at__fwd_8hpp.html',1,'']]],
+  ['at_5ffwd_2ehpp',['at_fwd.hpp',['../at__fwd_8hpp.html',1,'']]]
 ];

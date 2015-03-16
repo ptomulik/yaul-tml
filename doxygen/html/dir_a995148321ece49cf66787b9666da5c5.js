@@ -12,6 +12,7 @@ var dir_a995148321ece49cf66787b9666da5c5 =
     [ "empty.hpp", "template__sequence_2aux___2empty_8hpp.html", null ],
     [ "end.hpp", "template__sequence_2aux___2end_8hpp.html", null ],
     [ "erase.hpp", "template__sequence_2aux___2erase_8hpp.html", null ],
+    [ "find_if.hpp", "template__sequence_2aux___2find__if_8hpp.html", null ],
     [ "front.hpp", "template__sequence_2aux___2front_8hpp.html", null ],
     [ "insert.hpp", "template__sequence_2aux___2insert_8hpp.html", null ],
     [ "iterator.hpp", "iterator_8hpp.html", null ],

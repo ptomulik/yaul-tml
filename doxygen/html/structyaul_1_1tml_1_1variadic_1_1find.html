@@ -131,15 +131,17 @@ struct yaul::tml::variadic::find&lt; T &gt;</h3>
   </dd>
 </dl>
 <dl class="section user"><dt>Synopsis</dt><dd></dd></dl>
-<div class="fragment"><div class="line"><span class="keyword">template</span>&lt; <span class="keyword">class</span> T &gt;</div>
-<div class="line">  <span class="keyword">struct </span>find</div>
-<div class="line">  {</div>
-<div class="line">    <span class="keyword">template</span>&lt; <span class="keyword">class</span>... Args &gt;</div>
-<div class="line">      <span class="keyword">struct </span>apply</div>
-<div class="line">      {</div>
-<div class="line">        <span class="keyword">typedef</span> unspecified type;</div>
-<div class="line">      };</div>
-<div class="line">  };</div>
+<div class="fragment"><div class="line"> <span class="keyword">namespace </span>variadic {</div>
+<div class="line">   <span class="keyword">template</span>&lt; <span class="keyword">class</span> T &gt;</div>
+<div class="line">     <span class="keyword">struct </span>find</div>
+<div class="line">     {</div>
+<div class="line">       <span class="keyword">template</span>&lt; <span class="keyword">class</span>... Args &gt;</div>
+<div class="line">         <span class="keyword">struct </span>apply</div>
+<div class="line">         {</div>
+<div class="line">           <span class="keyword">typedef</span> unspecified type;</div>
+<div class="line">         };</div>
+<div class="line">     };</div>
+<div class="line">}</div>
 </div><!-- fragment --><dl class="section user"><dt>Description</dt><dd></dd></dl>
 <p><code>variadic::find&lt;t&gt;::apply&lt;a0 ... a{n-1}&gt;::type</code> returns an <a class="el" href="IntConstConcept.html">Integral Constant</a> equal to the index in range <code>[0, n)</code> of the first occurrence of type <code>t</code> in the argument pack <code>a0 ... an</code> or <code>n</code>, if no such element exist in the argument pack.</p>
 <dl class="section user"><dt>Model of</dt><dd></dd></dl>
@@ -169,7 +171,7 @@ struct yaul::tml::variadic::find&lt; T &gt;</h3>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceyaul.html">yaul</a></li><li class="navelem"><a class="el" href="namespaceyaul_1_1tml.html">tml</a></li><li class="navelem"><a class="el" href="namespaceyaul_1_1tml_1_1variadic.html">variadic</a></li><li class="navelem"><a class="el" href="structyaul_1_1tml_1_1variadic_1_1find.html">find</a></li>
-    <li class="footer">Generated on Mon Mar 16 2015 15:54:02 for TML by
+    <li class="footer">Generated on Mon Mar 16 2015 16:00:20 for TML by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

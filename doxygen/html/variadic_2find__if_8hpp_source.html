@@ -131,22 +131,22 @@ $(document).ready(function(){initNavTree('variadic_2find__if_8hpp_source.html','
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;} } } } <span class="comment">// end namespace yaul::tml::variadic::detail</span></div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceyaul.html">yaul</a> { <span class="keyword">namespace </span>tml { <span class="keyword">namespace </span>variadic {</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">class</span> Pred&gt;</div>
-<div class="line"><a name="l00077"></a><span class="lineno"><a class="line" href="structyaul_1_1tml_1_1variadic_1_1find__if.html">   77</a></span>&#160;  <span class="keyword">struct </span><a class="code" href="structyaul_1_1tml_1_1variadic_1_1find__if.html">find_if</a>;</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">class</span> Pred&gt;</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;  <span class="keyword">template</span> &lt;<span class="keyword">class</span>... Args&gt;</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="keyword">struct </span><a class="code" href="structyaul_1_1tml_1_1variadic_1_1find__if.html">find_if</a>&lt;Pred&gt;::apply</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;      : detail::find_if_impl&lt;Pred&gt;::template apply&lt;0l,Args...&gt;</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    { };</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;} } } <span class="comment">// end namespace yaul::tml::variadic</span></div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="preprocessor">#include &lt;yaul/tml/variadic/aux_/find_if.hpp&gt;</span></div>
+<div class="line"><a name="l00079"></a><span class="lineno"><a class="line" href="structyaul_1_1tml_1_1variadic_1_1find__if.html">   79</a></span>&#160;  <span class="keyword">struct </span><a class="code" href="structyaul_1_1tml_1_1variadic_1_1find__if.html">find_if</a>;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">class</span> Pred&gt;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;  <span class="keyword">template</span> &lt;<span class="keyword">class</span>... Args&gt;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="keyword">struct </span><a class="code" href="structyaul_1_1tml_1_1variadic_1_1find__if.html">find_if</a>&lt;Pred&gt;::apply</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;      : detail::find_if_impl&lt;Pred&gt;::template apply&lt;0l,Args...&gt;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    { };</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;} } } <span class="comment">// end namespace yaul::tml::variadic</span></div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* YAUL_TML_VARIADIC_FIND_IF_HPP */</span><span class="preprocessor"></span></div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="comment">// vim: set expandtab tabstop=2 shiftwidth=2:</span></div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="comment">// vim: set foldmethod=marker foldcolumn=4:</span></div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="preprocessor">#include &lt;yaul/tml/variadic/aux_/find_if.hpp&gt;</span></div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* YAUL_TML_VARIADIC_FIND_IF_HPP */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="comment">// vim: set expandtab tabstop=2 shiftwidth=2:</span></div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="comment">// vim: set foldmethod=marker foldcolumn=4:</span></div>
 <div class="ttc" id="variadic_2find__if__fwd_8hpp_html"><div class="ttname"><a href="variadic_2find__if__fwd_8hpp.html">find_if_fwd.hpp</a></div><div class="ttdoc">Forward declarations for yaul/tml/variadic/find_if.hpp. </div></div>
-<div class="ttc" id="structyaul_1_1tml_1_1variadic_1_1find__if_html"><div class="ttname"><a href="structyaul_1_1tml_1_1variadic_1_1find__if.html">yaul::tml::variadic::find_if</a></div><div class="ttdoc">Returns an index of the first element in Args that satisfies predicate Pred </div><div class="ttdef"><b>Definition:</b> find_if.hpp:77</div></div>
+<div class="ttc" id="structyaul_1_1tml_1_1variadic_1_1find__if_html"><div class="ttname"><a href="structyaul_1_1tml_1_1variadic_1_1find__if.html">yaul::tml::variadic::find_if</a></div><div class="ttdoc">Returns an index of the first element in Args that satisfies predicate Pred </div><div class="ttdef"><b>Definition:</b> find_if.hpp:79</div></div>
 <div class="ttc" id="namespaceyaul_html"><div class="ttname"><a href="namespaceyaul.html">yaul</a></div><div class="ttdoc">Main namespace for the parent yaul library. </div><div class="ttdef"><b>Definition:</b> groups.hpp:7</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -155,7 +155,7 @@ $(document).ready(function(){initNavTree('variadic_2find__if_8hpp_source.html','
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_b0a4ba8c08b4702ae404c283be6b22fe.html">yaul</a></li><li class="navelem"><a class="el" href="dir_346daf964bd84660eb1e7d6f1abe2cfc.html">tml</a></li><li class="navelem"><a class="el" href="dir_3a7a2dd7b4087ab743635fac97aa5291.html">variadic</a></li><li class="navelem"><a class="el" href="variadic_2find__if_8hpp.html">find_if.hpp</a></li>
-    <li class="footer">Generated on Mon Mar 16 2015 15:53:55 for TML by
+    <li class="footer">Generated on Mon Mar 16 2015 16:00:13 for TML by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

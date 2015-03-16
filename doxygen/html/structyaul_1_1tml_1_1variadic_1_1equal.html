@@ -149,7 +149,7 @@ struct yaul::tml::variadic::equal&lt; Pred, &gt;</h3>
 <p><a class="el" href="MetafunClassConcept.html">Metafunction Class</a></p>
 <dl class="section user"><dt>Expression semantics</dt><dd></dd></dl>
 <p>For any arguments <code>args1...</code> and <code>args2...</code> and a binary <a class="el" href="LambdaExprConcept.html">Lambda Expression</a> <code>pred</code>:</p>
-<div class="fragment"><div class="line"><span class="keyword">typedef</span> equal&lt; <a class="code" href="structyaul_1_1tml_1_1is__same.html">pred</a>, args1...&gt;::apply&lt;args2...&gt;::type c;</div>
+<div class="fragment"><div class="line"><span class="keyword">typedef</span> variadic::equal&lt; <a class="code" href="structyaul_1_1tml_1_1is__same.html">pred</a>, args1...&gt;::apply&lt;args2...&gt;::type c;</div>
 </div><!-- fragment --><ul>
 <li><b>Return type</b>: <a class="el" href="IntConstConcept.html">Integral Constant</a></li>
 <li><b>Semantics</b>: <code>c::value == true</code> if and only if <code>sizeof...(args1) == sizeof...(args2)</code> and forevery <code>a1i</code> in <code>args1...</code> and <code>a2i</code> in <code>args2...</code> it holds <code>apply&lt;pred,a1i,a2i&gt;type::value == true</code>.</li>
@@ -184,7 +184,7 @@ struct yaul::tml::variadic::equal&lt; Pred, &gt;</h3>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceyaul.html">yaul</a></li><li class="navelem"><a class="el" href="namespaceyaul_1_1tml.html">tml</a></li><li class="navelem"><a class="el" href="namespaceyaul_1_1tml_1_1variadic.html">variadic</a></li><li class="navelem"><a class="el" href="structyaul_1_1tml_1_1variadic_1_1equal.html">equal</a></li>
-    <li class="footer">Generated on Mon Mar 16 2015 15:54:02 for TML by
+    <li class="footer">Generated on Mon Mar 16 2015 16:00:20 for TML by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

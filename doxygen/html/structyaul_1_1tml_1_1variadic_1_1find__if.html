@@ -131,15 +131,17 @@ struct yaul::tml::variadic::find_if&lt; Pred &gt;</h3>
   </dd>
 </dl>
 <dl class="section user"><dt>Synopsis</dt><dd></dd></dl>
-<div class="fragment"><div class="line"><span class="keyword">template</span>&lt; <span class="keyword">class</span> Pred &gt;</div>
-<div class="line">  <span class="keyword">struct </span>find_if</div>
-<div class="line">  {</div>
-<div class="line">    <span class="keyword">template</span>&lt; <span class="keyword">class</span>... Args &gt;</div>
-<div class="line">      <span class="keyword">struct </span>apply</div>
-<div class="line">      {</div>
-<div class="line">        <span class="keyword">typedef</span> unspecified type;</div>
-<div class="line">      };</div>
-<div class="line">  };</div>
+<div class="fragment"><div class="line"> <span class="keyword">namespace </span>variadic {</div>
+<div class="line">   <span class="keyword">template</span>&lt; <span class="keyword">class</span> Pred &gt;</div>
+<div class="line">     <span class="keyword">struct </span>find_if</div>
+<div class="line">     {</div>
+<div class="line">       <span class="keyword">template</span>&lt; <span class="keyword">class</span>... Args &gt;</div>
+<div class="line">         <span class="keyword">struct </span>apply</div>
+<div class="line">         {</div>
+<div class="line">           <span class="keyword">typedef</span> unspecified type;</div>
+<div class="line">         };</div>
+<div class="line">     };</div>
+<div class="line">}</div>
 </div><!-- fragment --><dl class="section user"><dt>Description</dt><dd></dd></dl>
 <p><code>variadic::find_if&lt;Pred&gt;::apply&lt;Args...&gt;::type</code> returns an <a class="el" href="IntConstConcept.html">Integral Constant</a> which is an index of first element in <code>Args...</code> satisfying the predicate <code>Pred</code>. If there is no such element in <code>Args...</code>, then an <a class="el" href="IntConstConcept.html">Integral Constant</a> equal to <code>sizeof...(Args)</code> is returned. Especially, if the argument pack <code>Args...</code> is empty, zero is returned.</p>
 <dl class="section user"><dt>Model of</dt><dd></dd></dl>
@@ -174,7 +176,7 @@ struct yaul::tml::variadic::find_if&lt; Pred &gt;</h3>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceyaul.html">yaul</a></li><li class="navelem"><a class="el" href="namespaceyaul_1_1tml.html">tml</a></li><li class="navelem"><a class="el" href="namespaceyaul_1_1tml_1_1variadic.html">variadic</a></li><li class="navelem"><a class="el" href="structyaul_1_1tml_1_1variadic_1_1find__if.html">find_if</a></li>
-    <li class="footer">Generated on Mon Mar 16 2015 15:54:02 for TML by
+    <li class="footer">Generated on Mon Mar 16 2015 16:00:20 for TML by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

@@ -30,15 +30,17 @@ namespace yaul { namespace tml { namespace variadic {
  * \par Synopsis
  *
  * \code
- *  template< class T >
- *    struct find
- *    {
- *      template< class... Args >
- *        struct apply
- *        {
- *          typedef unspecified type;
- *        };
- *    };
+ *  namespace variadic {
+ *    template< class T >
+ *      struct find
+ *      {
+ *        template< class... Args >
+ *          struct apply
+ *          {
+ *            typedef unspecified type;
+ *          };
+ *      };
+ * }
  * \endcode
  *
  * \par Description

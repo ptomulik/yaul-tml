@@ -59,7 +59,7 @@ namespace yaul { namespace tml { namespace variadic {
  * \ref LambdaExprConcept `pred`:
  *
  * \code
- *  typedef equal< pred, args1...>::apply<args2...>::type c;
+ *  typedef variadic::equal< pred, args1...>::apply<args2...>::type c;
  * \endcode
  *
  * - **Return type**: \ref IntConstConcept

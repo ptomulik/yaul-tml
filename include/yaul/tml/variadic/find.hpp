@@ -47,8 +47,8 @@ namespace yaul { namespace tml { namespace variadic {
  *
  * ``variadic::find<t>::::apply<a0 ... a{n-1}>::::type`` returns an
  * \ref IntConstConcept equal to the index in range ``[0, n)`` of the first
- * occurrence of type ``t`` in the argument pack ``a0 ... an`` or ``n``, if no
- * such element exist in the argument pack.
+ * occurrence of type ``t`` in the argument pack ``a0 ... a{n-1}`` or ``n``, if
+ * no such element exist in the argument pack.
  *
  * \par Model of
  *
